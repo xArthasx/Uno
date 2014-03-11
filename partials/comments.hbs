@@ -1,3 +1,23 @@
+<section class="plusone">
+<div class="g-plusone"></div>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</section>
 <section class="comments">
-  <div id="post_{{id}}_comments"></div><script>(function () {var c = document.getElementById('post_{{id}}_comments'),w = c.offsetWidth; c.innerHTML = '<div class="g-comments" data-href="{{@blog.url}}{{url}}" data-width="' + w + '" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></div>';})();</script>
+  <div id="post_{{id}}_comments">
+  </div>
+  <script>
+  (function () {
+    var c =document.getElementById('post_{{id}}_comments'),
+    w = c.offsetWidth;
+    c.innerHTML ='<div class="g-comments" data-href="{{@blog.url}}{{url}}" data-width="'
+    + w
+    + '"data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></div>';
+  })();
+  </script>
 </section>
