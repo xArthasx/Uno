@@ -1,6 +1,6 @@
 # Uno for Ghost
 
-
+Help 
 Uno for Ghost is the result of my first 'mini-project' of 2014. The theme features a minimal, responsive design with a cover page, disqus comment integration, foundation icons and various colour options.
 
 
