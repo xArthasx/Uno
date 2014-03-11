@@ -8,7 +8,10 @@
     <h1 class="post-title">{{{title}}}</h1>
     <div class="post-meta">
       <i class="icon-calendar">
-      </i> {{date published_at timeago="true"}}
+      </i>
+      <time datetime="{{date format="DD MMM YYYY"}}" class="post-meta__date date">
+        {{date format="DD MMM YYYY"}}
+      </time>
     </div>
     <!--<div class="post-meta-data"><i class="icon-shortlink"></i>
     <a href="#">BIT.LY/1ES1TCF</a></div>-->
@@ -16,7 +19,7 @@
       {{tags}}</div>{{/if}}
 
     </header>
-s
+
     <section class="{{post_class}}">
       {{content}}
     </section>
