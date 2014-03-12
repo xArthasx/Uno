@@ -13,12 +13,7 @@
         {{date format="DD MMM YYYY"}}
       </time>
     </div>
-    {{#if tags}}
-    {{#foreach tags}}
-      {{tag}}|
-    {{/foreach}}
-    {{/if}}
-
+    {{tags prefix="en " separator=" | "}}
     </header>
 
     <section class="{{post_class}}">
