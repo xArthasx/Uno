@@ -23,14 +23,8 @@
 
   </article>
   <footer class="post-footer">
-
-    <section class="author">
-      <h4>{{author.name}}</h4>
-      <p>{{author.bio}}</p>
-    </section>
-
     <section class="share">
-      <h4>Comparte este post</h4>
+      <h5>Comparte este post</h5>
       <a href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <i class="icon-social-twitter">
         </i>
@@ -47,9 +41,6 @@
         <span class="hidden">Google+</span>
       </a>
     </section>
-
     {{> comments}}
-
-
   </footer>
   {{/post}}
