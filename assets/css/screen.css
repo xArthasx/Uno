@@ -796,6 +796,9 @@ input[type="tel"] {
     display: block;
     margin-bottom: .4em; } }
 
+.share i{
+    font-size: 2.2em;
+}
 
 @font-face {
   font-family: "foundation-icons";
