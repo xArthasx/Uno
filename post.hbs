@@ -13,10 +13,11 @@
         {{date format="DD MMM YYYY"}}
       </time>
     </div>
-    <!--<div class="post-meta-data"><i class="icon-shortlink"></i>
-    <a href="#">BIT.LY/1ES1TCF</a></div>-->
-    {{#if tags}}<div class="post-meta-data"><i class="icon-tags"></i>
-      {{tags}}</div>{{/if}}
+    {{#if tags}}
+    {{#foreach tags}}
+      {{tag}}|
+    {{/foreach}}
+    {{/if}}
 
     </header>
 
