@@ -167,7 +167,8 @@ pre {
   pre code {
     padding: 0;
     background: none;
-    border: none; }
+    border: none;
+    word-wrap: break-word;}
 
 .date,
 .time,
@@ -325,8 +326,7 @@ hr {
   background-size: cover; }
 
 .panel-cover--collapsed {
-  width: 40%;
-  max-width: 430px; }
+  width: 430px }
 
 .panel-cover--overlay {
   display: block;
